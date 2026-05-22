@@ -1,0 +1,48 @@
+/* import './App.css'  */
+
+/*
+
+ https://www.figma.com/design/jxk4as1Stgs24l0ohYfEyi/Top-16-Websites-of-2024---Awwwards--Community---Copy-?node-id=0-1&p=f&t=HjpEhm5jJ3ZDm3Ge-0  
+
+*/
+
+
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-sm: 400px;
+  --color-FFFFFF: #ffffff;
+  --color-050038: #050038;
+  --color-4262FF: #4262ff;
+  --color-FFD02F: #ffd02f;
+  --font-inter: "Inter", sans-serif;
+  --font-helvetica: "Helvetica Neue", sans-serif;
+}
+* {
+  @apply 
+  /* border border-4262FF */
+   box-border
+}
+.heading-1 {
+  @apply font-inter font-bold text-3xl sm:text-5xl sm:leading-[56px] leading-[36px] tracking-[1px] text-050038;
+}
+
+.heading-2 {
+  @apply font-inter font-bold text-xl sm:text-2xl leading-[28px] tracking-[0%] text-050038;
+}
+/* buutton  */
+.heading-3 {
+  @apply font-helvetica font-normal text-[18px] leading-[24px] tracking-[0%] text-FFFFFF;
+}
+
+.heading-4 {
+  @apply font-inter font-normal text-[18px] leading-[24px] tracking-[0%] text-050038;
+}
+
+.heading-5 {
+  @apply font-helvetica font-normal text-[16px] leading-[24px] tracking-[0%] text-050038 capitalize;
+}
+/* button  */
+.heading-6 {
+  @apply font-helvetica font-normal text-[14px] sm:leading-[20px] leading-[7px] tracking-[0%] text-050038;
+}
